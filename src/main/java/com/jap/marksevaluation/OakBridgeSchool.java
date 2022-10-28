@@ -186,6 +186,7 @@ public class OakBridgeSchool {
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("Report");
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("The total marks of the class in sorted order");
         oakBridgeSchool.sortByTotalMarks(totalMarks);
         for (int index = totalMarks.length - 1; index >= 0; index--) {
             System.out.println(totalMarks[index]);
