@@ -5,8 +5,7 @@ public class OakBridgeSchool {
     {
         if (math.length == 0 || science.length == 0 || english.length == 0) {
             return null;
-        }
-        else {
+        } else {
             int[] totalMarks = new int[math.length];
             for (int index = 0; index < math.length; index++) {
                 totalMarks[index] = math[index] + science[index] + english[index];
