@@ -184,7 +184,12 @@ public class OakBridgeSchool {
 
             oakBridgeSchool.displayDetails(totalMark, averageMark, mathGrade, scienceGrade, englishGrade, studentName, rollNumber);
         }
-
-        
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        System.out.println("Report");
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        oakBridgeSchool.sortByTotalMarks(totalMarks);
+        for (int index = totalMarks.length - 1; index >= 0; index--) {
+            System.out.println(totalMarks[index]);
+        }
     }
 }
